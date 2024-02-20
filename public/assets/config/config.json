@@ -1,0 +1,38 @@
+{
+    "app": "QR Menu",
+    "defaultDomain": "mit",
+    "apiurl": "https://qrmenuapi.azurewebsites.net/api/",
+    "websocketurl": "https://ezposvm.mitcloud.com/sw-socket-azure/app",
+    "azureurl": "https://erpstorageacc.blob.core.windows.net/v6erp-file-attachment/stm/",
+    "columnperview": 6,
+
+    "themes": {
+        "stm": {
+            "theme": "1",
+
+            "primary": "#1C8A43",
+            "bg_category_active": "#1C8A43",
+            "text_category_active": "white",
+            "border_category": "#1C8A43",
+            "text_category": "#1C8A43",
+            "item_menu_button_font_color": "white",
+            "item_menu_button_background_color": "#1C8A43",
+            "checkbox_fill": "#1C8A43",
+            "checkbox_mark_fill": "white"
+        },
+        "minlan": {
+            "theme": "2",
+
+            "primary": "#FEBE10",
+            "bg_category_active": "#febe1026",
+            "text_category_active": "black",
+            "border_category": "#FEBE10",
+            "text_category": "black",
+            "item_menu_button_font_color": "black",
+            "item_menu_button_background_color": "#FEBE10",
+            "checkbox_fill": "#FEBE10",
+            "checkbox_mark_fill": "black"
+
+        }
+    }
+}
